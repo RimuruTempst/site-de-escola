@@ -1,0 +1,135 @@
+body {
+  font-family: "Montserrat";
+}
+
+.login-container {
+  min-height: 100%;
+  max-width: 100%
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  left: 10%;
+  margin-top: -2%;
+}
+
+h3 {
+  display: flex;
+  text-align: right;
+  font-size: 300%;
+  padding: 10px;
+}
+h1 {
+  display: flex;
+  font-size: 300%;
+  padding: 50px;
+}
+
+.usuarioesenha {
+  font-size: 20px;
+}
+
+.texto {
+  background-color: rgb(245, 242, 242);
+  outline: none;
+  font-size: 20px;
+  text-align: center;
+  border: 200px 50px;
+  border-color: transparent;
+  border-radius: 10px;
+  
+}
+
+.senha {
+  background-color: rgb(245, 242, 242);
+  outline: none;
+  font-size: 20px;
+  text-align: center;
+  border: 80px;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+/*.botao-login {
+  background-color: rgb(127, 0, 255);
+  color: rgb(127, 0, 255);
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: 30px;
+  border-color: rgb(127, 0, 255);
+}*/
+
+.botaologin {
+  background-color: rgb(127, 0, 255);
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 10px 280px;
+  border-radius: 10px;
+  transition: 0, 5s;
+  border: none;
+  border-color: rgb(127, 0, 255);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0, 2s all ease-in-out;
+}
+
+.button-area-aluno {
+  color: rgb(255, 255, 255);
+  padding: 10px 0px;
+  border-radius: 10px;
+  border-color: rgb(127, 0, 255);
+}
+.aluno-btn {
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+  color: rgb(127, 0, 255);
+  font-size: 15px;
+  padding: 10px 255px;
+  border-radius: 10px;
+  transition: 0, 5s;
+  border-color: rgb(127, 0, 255);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0, 2s all ease-in-out;
+}
+
+.buttonarea-professor {
+  font-size: 10px;
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+  color: rgb(127, 0, 255);
+  font-size: 5px;
+  padding: 9px 2px;
+  border: 20px;
+  border-radius: 10px;
+  transition: 0, 2s all ease-in-out;
+}
+
+.professor-btn {
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+  color: rgb(127, 0, 255);
+  font-size: 15px;
+  padding: 10px 230px;
+  border-radius: 10px;
+  transition: 0, 5s;
+  border-color: rgb(127, 0, 255);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0, 2s all ease-in-out;
+}
+
+.login-image {
+  float: right;
+  position: absolute;
+  left: 125%;
+  top: -15%;
+  margin-top: 30%;
+  
+}
+
+.creditos {
+  margin-top: 30%;
+  
+}

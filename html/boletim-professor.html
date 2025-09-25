@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="/src/image/graduation-cap-icon-stroke-by-Vexels.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/boletim-professor.css" />
+
+    <title>Boletim do Professor</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Menu lateral -->
+      <aside class="sidebar">
+        <div class="logo">
+          <img
+            class="capelo"
+            src="/src/image/graduation-cap-icon-stroke-by-Vexels.png"
+            alt="Logo Graduação"
+          />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Curso</a></li>
+            <br />
+            <li><a href="#">Disciplinas</a></li>
+            <br />
+            <li><a href="#">Semestre</a></li>
+            <br />
+            <li><a href="#">Notas</a></li>
+            <br />
+          </ul>
+        </nav>
+        <div class="logout">
+          <a href="#">Logout</a>
+        </div>
+      </aside>
+
+      <!-- Conteúdo principal -->
+
+      <main class="content">
+        <header class="top-bar">
+          <h1>Bem-vindo de volta!</h1>
+          <div class="acoes">
+            <span class="icone-usuario">👤</span>
+            <span class="icone-config">⚙️</span>
+            <button class="btn-area-professor">Área Professor</button>
+          </div>
+        </header>
+
+        <section class="filtros">
+          <div class="anoletivo">
+            <label for="ano">Ano Letivo:</label>
+          </div>
+
+          <div class="ano2025">
+            <input type="text" id class="ano" value="2025" />
+          </div>
+          <div class="pesquisa">
+            <input type class="search" placeholder="Pesquisar" />
+            <img class="lupa" src="/src/image/pngwing.com.png" alt="lupa" />
+          </div>
+        </section>
+        <br />
+        <hr class="hr" />
+        <section class="filtro-extra">
+          <input type class="text1" placeholder="Disciplina" />
+          <img
+            class="sinal1"
+            src="/src/image/sinal de +.png.png"
+            alt="Sinal1"
+          />
+
+          <input type class="text2" placeholder="Avaliação" />
+          <img
+            class="sinal2"
+            src="/src/image/sinal de +.png.png"
+            alt="Sinal2"
+          />
+
+          <input type class="text3" placeholder="Nota" />
+          <img
+            class="sinal3"
+            src="/src/image/sinal de +.png.png"
+            alt="Sinal3"
+          />
+        </section>
+        <br />
+        <hr class="hr2" />
+        <section class="tabela">
+          <table class="disa1a2a3">
+            <thead class="cabecalho">
+              <tr>
+                <th>Disciplina</th>
+                <th>A1</th>
+                <th>A2</th>
+                <th>A3</th>
+                <th>Média</th>
+              </tr>
+            </thead>
+            <tbody class="materia">
+              <tr>
+                <td>Modelagem de Software</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Soluções Computacionais</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Desenvolvimento Web</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>História da Computação</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Vida e Carreira</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Linguagens de Programação</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Segurança da Informação</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

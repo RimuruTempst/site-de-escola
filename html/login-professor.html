@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/src/image/graduation-cap-icon-stroke-by-Vexels.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/login-professor.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+
+    <title>Página de Login</title>
+  </head>
+  <body>
+    <main>
+      <section class="login-container">
+        <!-- Área de imagem -->
+        <div class="login-image">
+          <img
+            src="/src/20944363.png"
+            alt="Ilustração de professor em sala de aula"
+          />
+        </div>
+
+        <h3>Acesso</h3>
+
+        <h1>Faça seu login</h1>
+
+        <!-- Área de texto -->
+        <div class="login-form">
+
+
+          
+          <form action="#" method="post">
+            <!-- Usuário -->
+            <div class="usuarioesenha">
+              <label for="usuario">Usuário</label> <br />
+              <input
+                class="texto"
+                type="text"
+                id="usuario"
+                name="usuario"
+                placeholder="Digite sua matrícula."
+                required
+              />
+              <br />
+
+              <!-- Senha -->
+              <label for="senha">Senha</label> <br />
+
+              <input
+                class="senha"
+                type="password"
+                id="senha"
+                name="senha"
+                placeholder="Digite sua senha.."
+                required
+              />
+            </div>
+            <br />
+
+            <!-- Lembrar de mim -->
+            <div class="checkbox">
+              <input type="checkbox" id="lembrar" name="lembrar" />
+              <label for="lembrar">Lembrar de mim</label> <br />
+            </div>
+            <br />
+
+            <!-- Botão login -->
+            <div class="botao-login">
+              <button type="submit" class="botaologin">login</button>
+            </div>
+            <br />
+
+            <!-- Área aluno e professor-->
+
+            <nav>
+            <div class="button-area-aluno">
+              <button type="button" class="aluno-btn">Área Aluno</button>
+              <a href="/html/boletim-aluno.html" target="_blank"></a>
+            </div>
+            <br />
+
+            <div class="buttonarea-professor">
+              <button type="button" class="professor-btn">
+                Área Professor
+              </button>
+              </nav>
+            </div>
+            <br />
+          </form>
+
+          <!-- Link de recuperação -->
+
+          <nav>
+            <p class="esqueci-senha"><a href="./recuperacaodesenha.html">Esqueceu sua senha?</a></p> <br>
+            <p class="esqueci-senha"><a href="./Facaseucadastro.html">Faça seu cadastro</a></p>
+          </nav>
+           <footer class="creditos">
+      <a href="./creditos.html">Creditos</a>
+    </footer>
+        </div>
+      </section>
+      
+    </main>
+
+   
+  </body>
+</html>
